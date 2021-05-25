@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    padding: 0.8rem;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgb(82, 166, 226);
+
+    .link_wrapper {
+        
+    }
+
+    .link_wrapper button {
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
+        border-color: transparent;
+        padding-right: 4px;
+        margin-right: 0px;
+    }
+
+    .link_wrapper .link_1 {
+    }
+
+    .link_wrapper button:hover {
+        color: rgb(189, 189, 189);
+    }
+
+}
+

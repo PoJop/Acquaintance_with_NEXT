@@ -1,16 +1,10 @@
 import Link  from 'next/link'
+import Nav from './nav'
 
 const MainContainer = ({children}) => {
     return(
         <>
-        <nav className='navBar'>
-            <Link href="/" >
-                <a  >Главная</a>
-            </Link>
-            <Link href="/users">
-                <a >Пользователи</a>
-            </Link>
-        </nav>
+        <Nav />
         <div>
             {children}
         </div>
